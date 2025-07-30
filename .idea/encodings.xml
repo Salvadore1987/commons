@@ -7,6 +7,10 @@
     <file url="file://$PROJECT_DIR$/commons-dependencies/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons-domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons-library/datagrid-library/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons-library/datagrid-library/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons-library/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons-library/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons-model/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons-rest/src/main/java" charset="UTF-8" />

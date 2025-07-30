@@ -20,7 +20,7 @@ public abstract class BaseEntity<T> implements Serializable {
     } else if (!(o instanceof BaseEntity)) {
       return false;
     } else {
-      BaseEntity<?> that = (BaseEntity)o;
+      final BaseEntity<?> that = (BaseEntity)o;
       return this.id.equals(that.id);
     }
   }

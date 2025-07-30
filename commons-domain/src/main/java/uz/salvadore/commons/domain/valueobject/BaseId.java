@@ -14,10 +14,11 @@ public abstract class BaseId<T> implements Serializable {
     return value;
   }
 
+
   @Override
   public boolean equals(final Object o) {
-    if (this == o) return true;
-    if (!(o instanceof BaseId<?> baseId)) return false;
+    if (o == null || getClass() != o.getClass()) return false;
+    final BaseId<?> baseId = (BaseId<?>) o;
     return Objects.equals(value, baseId.value);
   }
 
