@@ -1,8 +1,11 @@
 package uz.salvadore.commons.domain.valueobject;
 
+import lombok.experimental.SuperBuilder;
+
 import java.io.Serializable;
 import java.util.Objects;
 
+@SuperBuilder
 public abstract class BaseId<T> implements Serializable {
   private final T value;
 

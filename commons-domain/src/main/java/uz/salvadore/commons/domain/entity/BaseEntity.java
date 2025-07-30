@@ -1,8 +1,11 @@
 package uz.salvadore.commons.domain.entity;
 
+import lombok.experimental.SuperBuilder;
+
 import java.io.Serializable;
 import java.util.Objects;
 
+@SuperBuilder
 public abstract class BaseEntity<T> implements Serializable {
   private T id;
 
